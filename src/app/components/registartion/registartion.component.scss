@@ -1,0 +1,42 @@
+.registration-comp {
+  padding: 62px 133px;
+  .title {
+    margin-bottom: 32px;
+  }
+  form {
+    margin: 0;
+    .form-group {
+      label {
+        justify-content: left;
+        width: 25%;
+      }
+      .form-control {
+        width: 75%;
+      }
+      margin-bottom: 12px;
+    }
+    textarea {
+        resize: none;
+    }
+  }
+  .form-btn-group {
+    text-align: right;
+    .btn {
+      width: 120px;
+      border: 1px solid;
+      margin-left: 12px;
+    }
+  }
+  table{
+      margin-top: 32px;
+      img{
+          height: 20px;
+          width: 20px;
+      }
+  }
+  .table-title-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+  }
+}
